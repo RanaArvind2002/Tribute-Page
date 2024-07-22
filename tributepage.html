@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+
+    <style>
+        .navbar {
+            height: 200px;
+            width: 100%;
+            background-color: black;
+
+        }
+
+        h1 {
+            color: white;
+            margin-left: 480px;
+            font-size: 40px;
+            margin-top: 5px;
+            text-shadow: 2px 2px 5px red;
+        }
+
+        h3 {
+            color: white;
+            margin-left: 680px;
+            line-height: 0%;
+        }
+
+        button {
+            margin-left: 150px;
+            height: 50px;
+            width: 150px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        span {
+            color: white;
+            margin-left: 200px;
+            margin-top: 15px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        img {
+            background: fixed;
+            height: 90vh;
+            width: 100%;
+
+        }
+
+
+        #Mother_love_copy {
+            background: linear-gradient(0deg, rgb(217, 175, 217) 0%, rgb(151, 217, 225) 100%);
+            height: 100vh;
+
+        }
+
+        .about_flex {
+            display: flex;
+        }
+
+        .about_text {
+            height: 500px;
+            width: 900px;
+            background-color: white;
+            border: 1px solid white;
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+
+        #btn4 {
+            margin-left: 380px;
+            border-radius: 10px;
+            background-color: #ffc107;
+            color: white;
+            border: 1px solid #ffc107;
+        }
+
+        .nav2 {
+            height: 50px;
+            width: 100%;
+            border-radius: 10px;
+            background: linear-gradient(to right, red, blue);
+        }
+
+        #album {
+            height: 400px;
+            width: 400px;
+            margin-top: 20px;
+            margin-left: 20px;
+            border: 5px solid rgb(255, 255, 255);
+            border-radius: 10px;
+
+        }
+
+        /* .album1:hover{
+           transition: 1s ease ;
+           transform: 2s;
+        } */
+
+        #photos_gallery {
+            background: linear-gradient(rgb(230, 100, 101), rgb(145, 152, 229));
+        }
+
+        button,
+        .jjj {
+            background-color: black;
+        }
+
+        .footer {
+            height: 300px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.856);
+            margin-top: -1px;
+        }
+
+        .imgaees {
+            height: 100px;
+            width: 250px;
+            border: 1px solid red;
+        }
+
+        .footer2 {
+            background-color: black;
+            height: 40px;
+            width: 100%;
+        }
+
+
+        .footer3 {
+            background-color: black;
+            height: 40px;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+
+        .footer4 {
+            background-color: black;
+            height: 40px;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .icon {
+            margin-top: 50px;
+            margin-left: 550px;
+        }
+
+        .list {
+            display: flex;
+        }
+
+        .main_img {
+            height: 600px;
+            width: 100%;
+            border: 1px solid black;
+
+
+        }
+
+
+        .background_image {
+            background-image: url('fm2.jpg');
+            height: 700px;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.5;
+
+        }
+
+        .para {
+            margin-left: 10px;
+            font-size: 70px;
+            font-weight: bold;
+            color: #ffc107;
+            position: relative;
+            z-index: 999px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section id="box">
+
+        <div class="navbar">
+
+            <h1>M O T H E R &nbsp;&nbsp;&nbsp; S P E C I A L </h1>
+            <h3>TRIBUTE PAGE</h3>
+
+            <button id="btn1" onclick="home()" onmouseover="home1()" onmouseout="home2()">Home</button>
+            <span>|</span>
+            <button id="btn2" onclick="about()" onmouseover="about1()" onmouseout="about2()">About</button>
+            <span>|</span>
+            <button id="btn3" onclick="photos()" onmouseover="photos1()" onmouseout="photos2()">Photos</button>
+
+        </div>
+        <div class="background_image">
+            <span class="para">MOM,</span><br>
+            <span style="line-height: 0px; color: black; margin-left: 70px; ">"A Mother's Love is more beautiful than
+                fresh flower."</span><br><br><br><br><br><br><br><br><br><br><br>
+
+            <span style="margin-left: 480px; font-size: 100px; color: #ffc107; ">MY MOTHER</span> <br>
+            <span style="margin-left: 250px; font-size: 20px; color: black; ">"A Mother is the one who fills your heart
+                in the first place.My Mother is always my emotional
+                barometer and my guidence. <br> </span>
+
+            <span style="margin-left: 390px; font-size: 20px; color: black; "> i am lucky enough to get to have one
+                women who truly help me through
+                everything. "</span>
+        </div>
+
+
+        <div class="footer">
+
+            <div class="imagees">
+                <img class="icon" style="height: 50px; width: 50px; " src="whatsapp.jpg" alt="">
+                <img class="icon" style="height: 50px;  margin-left: 20px; width: 50px; " src="insta.jpg" alt="">
+                <img class="icon" style="height: 50px;  margin-left: 20px; width: 50px; " src="facebook.jpg" alt="">
+                <img class="icon" style="height: 50px;  margin-left: 20px; width: 50px; " src="twitter.jpg" alt="">
+                <img class="icon" style="height: 50px;  margin-left: 20px; width: 50px; " src="youtube.jpg" alt="">
+            </div>
+
+            <div class="list">
+
+                <h4 style="margin-left: 500px;  margin-top: 70px; color: white; font-size: 15px; font-weight: bold; ">
+                    Home</h4>
+                <h4 style="margin-left: 50px;  margin-top: 70px; color: white; font-size: 15px; font-weight: bold; ">
+                    News</h4>
+                <h4 style="margin-left: 50px;  margin-top: 70px; color: white; font-size: 15px; font-weight: bold; ">
+                    About</h4>
+                <h4 style="margin-left: 50px;  margin-top: 70px; color: white; font-size: 15px; font-weight: bold; ">
+                    Contact Us</h4>
+                <h4 style="margin-left: 50px;  margin-top: 70px; color: white; font-size: 15px; font-weight: bold; ">Our
+                    Team</h4>
+
+            </div>
+
+        </div>
+
+        <div class="footer2">
+
+            <span style="margin-left: 500px; color: white; margin-bottom: -20px;">Copyright@2024; Designed by ARVIND
+                SINGH
+                RANA</span>
+
+        </div>
+
+
+    </section>
+
+    <div id="Mother_love_copy">
+
+        <h1 style="color: rgb(7, 127, 240);  margin-left: 550px; font-size: 50px; text-shadow: 2px 2px 5px red; ">
+            <u>MOTHER LOVE</u>
+        </h1>
+
+        <div class="about_flex">
+
+            <div class="pic">
+
+                <img style="height: 500px; width: 400px;border: 5px solid rgb(255, 255, 255); margin-left: 100px; margin-top: 20px; "
+                    src="5.jpg" alt="">
+
+            </div>
+
+            <div class="about_text">
+                <h1
+                    style="margin-left: 360px; margin-top: 30px; font-size: 50px; color: #ffc107; text-shadow: 2px 2px 5px red; ">
+                    <u>About Me</u>
+                </h1>
+                <h3
+                    style=" margin-left: 0px; background-image: none; line-height: 20px; text-align: center; margin-top: 50px; color: rgb(7, 7, 7);  font-size: 25px; font-weight: bold;font-style: italic; ">
+                    The Bond between Mother & Son is a special One . It is the purest love.Mothers are Beautiful and
+                    Thoughtful and Full of life. Thank you for being the perfect
+                    Mother. Beign a mommy isn't about what you gave up to have a baby, but what you gained from having
+                    one!!!! <br>
+                </h3>
+
+
+                <h3
+                    style=" margin-left: 0px; background-image: none; line-height: 20px; text-align: center; margin-top: 50px; color: rgb(8, 8, 8);  font-size: 25px; font-weight: bold;font-style: italic; ">
+                    When you look into your mother's eyes you know that is the purest love you can find on this earth .
+                    Mothers are like glue. Even when you can't see them, they're still holding the family together.
+                </h3>
+
+                <button id="btn4" onclick="home8()" onmouseover="home81()" onmouseout="home82()">Go to Home</button>
+
+            </div>
+
+        </div>
+
+        <div class="footer3">
+
+            <span style="margin-left: 500px; color: white; margin-bottom: -20px;">Copyright@2024; Designed by ARVIND
+                SINGH
+                RANA</span>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <div id="photos_gallery">
+
+        <div class="nav2"></div>
+        <h1 style="margin-left: 60px; "><i>PHOTOS ALBUM</i></h1>
+        <button class="jjj" id="btn6" type="button" onclick="home3_copy()" onmouseover="home31_copy()"
+            onmouseout="home32_copy()"
+            style="color: white; font-size: 20px; margin-left: 850px; line-height: 0%;   border: 1px solid white ">Home</button>
+        <button id="btn7" type="button" onclick="about3_copy()" onmouseover="about31_copy()" onmouseout="about32_copy()"
+            style="color: white; font-size: 20px; margin-left: 50px; line-height: 0%;  border-color:rgb(230, 100, 101), rgb(145, 152, 229); border: 1px solid white ; ">About</button>
+        <button id="btn9" type="button" onclick="photo3_copy()" onmouseover="photo31_copy()" onmouseout="photo32_copy()"
+            style="color: white; font-size: 20px; margin-left: 50px; line-height: 0%; border-color:rgb(230, 100, 101), rgb(145, 152, 229); border: 1px solid  white ; ">Photos</button>
+
+        <hr style="height: 8px; background-color: gray;  ">
+
+        <div class="imgs">
+
+            <div class="pic_box">
+                <img class="album1" style="margin-left: 110px;" id="album" src="1.jpg" alt="">
+                <img class="album1" id="album" src="2.jpg" alt="">
+                <img class="album1" id="album" src="3.jpg" alt="">
+            </div>
+
+            <div class="pic_box1">
+                <img class="album1" style="margin-left: 110px;" id="album" src="4.jpg" alt="">
+                <img class="album1" id="album" src="5.jpg" alt="">
+                <img class="album1" id="album" src="6.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="footer4">
+
+            <h3 style="margin-left: 500px; color: white; padding-top: 10px;">Copyright@2024; Designed by ARVIND SINGH
+                RANA</h3>
+
+        </div>
+
+    </div>
+
+
+    <script>
+
+
+        document.getElementById("Mother_love_copy").style.display = "none";
+        document.getElementById("photos_gallery").style.display = "none";
+
+
+        function about() {
+            document.getElementById("box").style.display = "none";
+            document.getElementById("Mother_love_copy").style.display = "block";
+
+
+        }
+        function home8() {
+            document.getElementById("Mother_love_copy").style.display = "none";
+            document.getElementById("box").style.display = "block";
+        }
+
+        function photos() {
+            document.getElementById("box").style.display = "none";
+            document.getElementById("photos_gallery").style.display = "block";
+
+        }
+
+        function home3_copy() {
+            document.getElementById("box").style.display = "block";
+            document.getElementById("photos_gallery").style.display = "none";
+        }
+
+        function about3_copy() {
+            document.getElementById("box").style.display = "none";
+            document.getElementById("Mother_love_copy").style.display = "block";
+            document.getElementById("photos_gallery").style.display = "none";
+        }
+
+        function about1() {
+            document.getElementById("btn2").style.backgroundColor = "red";
+        }
+
+        function about2() {
+            document.getElementById("btn2").style.backgroundColor = "black";
+        }
+
+
+
+        function photos1() {
+            document.getElementById("btn3").style.backgroundColor = "red";
+        }
+
+        function photos2() {
+            document.getElementById("btn3").style.backgroundColor = "black";
+        }
+
+        function home1() {
+            document.getElementById("btn1").style.backgroundColor = "red";
+        }
+
+        function home2() {
+            document.getElementById("btn1").style.backgroundColor = "black";
+        }
+
+        function home81() {
+            document.getElementById("btn4").style.backgroundColor = "red";
+        }
+
+        function home82() {
+            document.getElementById("btn4").style.backgroundColor = "#ffc107";
+        }
+
+
+        function home31_copy() {
+            document.getElementById("btn6").style.backgroundColor = "blue";
+        }
+
+        function home32_copy() {
+            document.getElementById("btn6").style.backgroundColor = "black";
+        }
+
+        function about31_copy() {
+            document.getElementById("btn7").style.backgroundColor = "blue";
+        }
+
+        function about32_copy() {
+            document.getElementById("btn7").style.backgroundColor = "black";
+        }
+
+        function photo31_copy() {
+            document.getElementById("btn9").style.backgroundColor = "blue";
+        }
+
+        function photo32_copy() {
+            document.getElementById("btn9").style.backgroundColor = "black";
+        }
+
+    </script>
+
+</body>
+
+</html>
